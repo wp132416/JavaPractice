@@ -11,7 +11,7 @@ public class PrimitiveDataType {
 	
 	public static void main(String[] args) {
 	
-		// init vars
+		// 변수 초기화
 		String name = "아이유";
 		boolean isMale = false;
 		int age = 23;
@@ -19,7 +19,7 @@ public class PrimitiveDataType {
 		float weight = 44.3f;
 		char bloodType = 'A';
 		
-		// print data
+		// 데이터 출력
 		System.out.println("<< 아이유 프로필 >>");
 		System.out.println("이름 : " + name);
 		System.out.println("성별 : " + ((isMale) ? "남자" : "여자"));
