@@ -39,7 +39,6 @@ public class Question {
 		
 			
 		System.out.println("민석이의 흑역사는?");
-		
 		answer = scanner.nextLine();
 		
 		if("차카".equals(answer)){
@@ -55,7 +54,7 @@ public class Question {
 			System.out.println("정답입니다!! ^^");
 		} else {
 			System.out.println("틀렸습니다!! ㅠ");
-		}	
+		}
 
 	}
 
