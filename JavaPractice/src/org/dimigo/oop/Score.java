@@ -43,9 +43,9 @@ public class Score {
 		.append(mat + " 점\n")
 		.append("영어 점수 : ")
 		.append(eng + " 점\n")
-		.append("총점 점수 : ")
+		.append("총점 : ")
 		.append((kor + mat + eng) + " 점\n")
-		.append("평균 점수 : ")
+		.append("평균 : ")
 		.append(String.format("%.1f", ((kor + mat + eng) / 3.0)) + " 점");
 		
 		System.out.println(sb.toString());
