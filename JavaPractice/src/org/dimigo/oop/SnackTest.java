@@ -8,7 +8,7 @@ package org.dimigo.oop;
  * org.dimigo.oop
  *   |_ SnackTest
  * 
- * 1. 개요 : 
+ * 1. 개요 : 실습과제 10
  * 2. 작성일 : 2015. 5. 19.
  * </pre>
  * 
