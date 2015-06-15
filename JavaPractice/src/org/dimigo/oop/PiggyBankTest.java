@@ -42,6 +42,11 @@ public class PiggyBankTest {
 		// 저금통에 돈 채우기
 		PiggyBank.putMoney(me, 1000);
 		
+		// 염치가 없는 남동생이 10만원을 빼가려고 함
+		PiggyBank.stealMoney(brother, 100000);
+		
+		PiggyBank.stealMoney(brother, 10000);
+		
 		// 잔고 출력
 		PiggyBank.printBalance();
 	}
