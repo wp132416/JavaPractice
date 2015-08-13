@@ -8,7 +8,7 @@ package org.dimigo.inheritance;
  * org.dimigo.inheritance
  *   |_ Circle
  * 
- * 1. 개요 : 
+ * 1. 개요 : Circle 클래스
  * 2. 작성일 : 2015. 8. 12.
  * </pre>
  * 
@@ -31,6 +31,11 @@ public class Circle extends Figure {
 	@Override
 	protected double calcArea(){
 		return Math.PI * Math.pow(radius, 2);
+	}
+	
+	protected void printCenter(){
+		System.out.print("원 ");
+		super.printCenter();
 	}
 	
 }

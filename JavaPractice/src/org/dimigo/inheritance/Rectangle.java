@@ -8,7 +8,7 @@ package org.dimigo.inheritance;
  * org.dimigo.inheritance
  *   |_ Rectangle
  * 
- * 1. 개요 : 
+ * 1. 개요 : Rectangle 클래스
  * 2. 작성일 : 2015. 8. 12.
  * </pre>
  * 
@@ -32,5 +32,10 @@ public class Rectangle extends Figure {
 	@Override
 	protected double calcArea(){
 		return width * height;
+	}
+	
+	protected void printCenter(){
+		System.out.print("사각형 ");
+		super.printCenter();
 	}
 }

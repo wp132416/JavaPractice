@@ -8,7 +8,7 @@ package org.dimigo.inheritance;
  * org.dimigo.inheritance
  *   |_ Triangle
  * 
- * 1. 개요 : 
+ * 1. 개요 : Triangle 클래스
  * 2. 작성일 : 2015. 8. 12.
  * </pre>
  * 
@@ -32,6 +32,11 @@ public class Triangle extends Figure {
 	
 	protected double calcArea(){
 		return width * height / 2;
+	}
+	
+	protected void printCenter(){
+		System.out.print("삼각형 ");
+		super.printCenter();
 	}
 
 }

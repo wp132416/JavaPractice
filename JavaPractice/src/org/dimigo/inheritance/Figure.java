@@ -8,7 +8,7 @@ package org.dimigo.inheritance;
  * org.dimigo.inheritance
  *   |_ Figure
  * 
- * 1. 개요 : 
+ * 1. 개요 : Figure 클래스
  * 2. 작성일 : 2015. 8. 12.
  * </pre>
  * 
@@ -26,5 +26,14 @@ public class Figure {
 	
 	protected double calcArea(){
 		return 0.0;
+	}
+	
+	protected void printCenter(){
+		System.out.println("중심좌표 : (" + this.centerX + ", " + this.centerY + ")");
+	}
+	
+	protected void moveFigure(int x, int y){
+		this.centerX += x;
+		this.centerY += y;
 	}
 }
