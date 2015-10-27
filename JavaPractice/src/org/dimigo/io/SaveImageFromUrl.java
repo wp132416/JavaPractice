@@ -13,7 +13,7 @@ import java.net.URL;
  * org.dimigo.io
  *   |_ SaveImageFromUrl
  * 
- * 1. 개요 : 
+ * 1. 개요 : 실습과제 7 (웹상에서 이미지 다운로드)
  * 2. 작성일 : 2015. 10. 22.
  * </pre>
  * 
