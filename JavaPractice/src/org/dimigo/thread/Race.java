@@ -19,8 +19,8 @@ public class Race {
 	public static void main(String args[]){
 		System.out.println("main method start");
 		
-		Runner r1 = new Runner("정욱재");
-		Runner r2 = new Runner("박승진");
+		Thread r1 = new Runner("정욱재");
+		Thread r2 = new Runner("박승진");
 		
 		r1.setPriority(Thread.MAX_PRIORITY);
 		r2.setPriority(Thread.MIN_PRIORITY);
